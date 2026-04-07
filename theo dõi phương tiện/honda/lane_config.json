@@ -1,0 +1,252 @@
+{
+  "frame_size": [
+    800,
+    450
+  ],
+  "lanes": {
+    "car_lane_1": {
+      "polygon": [
+        [
+          112,
+          174
+        ],
+        [
+          217,
+          160
+        ],
+        [
+          156,
+          313
+        ],
+        [
+          37,
+          313
+        ]
+      ],
+      "direction": "down",
+      "allowed_vehicles": [
+        "car",
+        "bus",
+        "truck"
+      ],
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "name": "Làn car 1"
+    },
+    "car_lane_2": {
+      "polygon": [
+        [
+          260,
+          135
+        ],
+        [
+          342,
+          136
+        ],
+        [
+          592,
+          314
+        ],
+        [
+          259,
+          315
+        ]
+      ],
+      "direction": "down",
+      "allowed_vehicles": [
+        "car",
+        "bus",
+        "truck"
+      ],
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "name": "Làn car 2"
+    },
+    "car_lane_3": {
+      "polygon": [
+        [
+          158,
+          311
+        ],
+        [
+          185,
+          230
+        ],
+        [
+          257,
+          230
+        ],
+        [
+          259,
+          313
+        ]
+      ],
+      "direction": "down",
+      "allowed_vehicles": [
+        "car",
+        "bus",
+        "truck"
+      ],
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "name": "Làn car 3"
+    },
+    "car_lane_4": {
+      "polygon": [
+        [
+          344,
+          132
+        ],
+        [
+          397,
+          137
+        ],
+        [
+          707,
+          313
+        ],
+        [
+          592,
+          315
+        ]
+      ],
+      "direction": "down",
+      "allowed_vehicles": [
+        "car",
+        "bus",
+        "truck"
+      ],
+      "color": [
+        255,
+        0,
+        0
+      ],
+      "name": "Làn car 4"
+    },
+    "motorcycle_lane_5": {
+      "polygon": [
+        [
+          255,
+          139
+        ],
+        [
+          346,
+          136
+        ],
+        [
+          586,
+          314
+        ],
+        [
+          257,
+          312
+        ]
+      ],
+      "direction": "down",
+      "allowed_vehicles": [
+        "motorcycle"
+      ],
+      "color": [
+        0,
+        255,
+        255
+      ],
+      "name": "Làn motorcycle 5"
+    },
+    "motorcycle_lane_6": {
+      "polygon": [
+        [
+          185,
+          230
+        ],
+        [
+          257,
+          228
+        ],
+        [
+          256,
+          313
+        ],
+        [
+          163,
+          311
+        ]
+      ],
+      "direction": "down",
+      "allowed_vehicles": [
+        "motorcycle"
+      ],
+      "color": [
+        0,
+        255,
+        255
+      ],
+      "name": "Làn motorcycle 6"
+    },
+    "motorcycle_lane_7": {
+      "polygon": [
+        [
+          114,
+          171
+        ],
+        [
+          221,
+          160
+        ],
+        [
+          159,
+          310
+        ],
+        [
+          37,
+          311
+        ]
+      ],
+      "direction": "down",
+      "allowed_vehicles": [
+        "motorcycle"
+      ],
+      "color": [
+        0,
+        255,
+        255
+      ],
+      "name": "Làn motorcycle 7"
+    }
+  },
+  "stop_lines": [
+    {
+      "name": "stop_line_main",
+      "line": [
+        [
+          0,
+          270
+        ],
+        [
+          800,
+          270
+        ]
+      ],
+      "color": [
+        0,
+        0,
+        255
+      ]
+    }
+  ],
+  "camera_info": {
+    "type": "high_angle",
+    "estimated_height": "6-10m",
+    "tilt_angle": "30-45 degrees",
+    "notes": "Camera góc cao với perspective distortion"
+  }
+}

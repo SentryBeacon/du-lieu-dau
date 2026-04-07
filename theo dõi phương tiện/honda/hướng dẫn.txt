@@ -1,0 +1,8 @@
+# Bước 1: Kiểm tra video
+python camera_system.py --video traffic.asf --mode test_config
+
+# Bước 2: Calibration
+python camera_system.py --video traffic.asf --mode calibrate
+
+# Bước 3: Chạy detection
+python camera_system.py --video traffic.asf --mode detect --output result.mp4
